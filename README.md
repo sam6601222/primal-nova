@@ -43,3 +43,19 @@
 
 ---
 *Created by Antigravity - 專業行銷科技專案*
+
+## 流程視覺化
+
+```mermaid
+graph TD
+    subgraph "數據輸入"
+        A[GA4/GSC/Sales] --> B[數據分析]
+        S[社群爬蟲] --> B
+    end
+    B --> C[企劃與 Hook 設計]
+    C --> D[影片/文章生產]
+    D --> E[廣告測試與分發]
+    E --> F{成效分析}
+    F -->|反饋| B
+```
+
